@@ -3,18 +3,39 @@
 Övningar i C# som rättas automatiskt. Du skriver koden, pushar till GitHub
 och får direkt veta vilka tester som är godkända.
 
-| Nr | Övning | Mapp |
+## Börja här
+
+1. **Läs [Så jobbar du i kursen](guider/sa-jobbar-du.md).** Den förklarar
+   hur allt hänger ihop och vad du gör varje lektion.
+2. **Gör [Kom igång](#kom-igång-görs-en-gång)** längre ner på den här sidan (en gång).
+3. **Börja med övning 01.**
+
+Så här ser varje lektion ut:
+
+```
+ Hämta nytt  →  Läs  →  Skriv kod  →  Provkör  →  Testa  →  Commit  →  Push  →  Kolla Actions
+ från läraren   uppgift              (▶)        (Test     (spara)    (skicka)   (rättning)
+                + guide                          Explorer)
+```
+
+## Övningar
+
+| Nr | Övning | Läs först |
 |---|---|---|
-| 01 | Grunder – villkor, loopar och arrayer | [`01-grunder`](01-grunder) |
-| 02 | Sortera en lista | [`02-sortera-lista`](02-sortera-lista) |
-| 03 | Filstrukturen i C# | [`03-filstruktur`](03-filstruktur) |
+| 01 | [Grunder – villkor, loopar och arrayer](01-grunder) | [Variabler](guider/variabler-och-datatyper.md), [Villkor och loopar](guider/villkor-och-loopar.md), [Metoder](guider/metoder.md) |
+| 02 | [Sortera en lista](02-sortera-lista) | [Villkor och loopar](guider/villkor-och-loopar.md), [Testkör](guider/testkora.md) |
+| 03 | [Filstrukturen i C#](03-filstruktur) | [Filstrukturen](guider/filstruktur.md), [Recept: skapa projekt](guider/skapa-projekt.md) |
 
 ## Guider
 
-Läs och slå upp här när du behöver: **[guider/](guider/README.md)**
+Alla guider finns i **[guider/](guider/README.md)**. Läs de fyra första innan du börjar:
 
 | Guide | Handlar om |
 |---|---|
+| [Så jobbar du i kursen](guider/sa-jobbar-du.md) | Arbetsgången, reglerna, när något går fel |
+| [Git och GitHub](guider/git-och-github.md) | Commit, push, pull, fork och vad allt betyder |
+| [Så fungerar C#](guider/sa-fungerar-csharp.md) | Från kod till program, tre sorters fel |
+| [Tester och autorättning](guider/tester-och-autorattning.md) | Vad som händer när du pushar |
 | [Variabler och datatyper](guider/variabler-och-datatyper.md) | `int`, `double`, `string`, att räkna |
 | [Villkor, loopar och arrayer](guider/villkor-och-loopar.md) | `if`, `for`, `while`, arrayer |
 | [Metoder](guider/metoder.md) | Parametrar och returvärden |
