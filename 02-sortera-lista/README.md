@@ -4,6 +4,13 @@ Du ska skriva egna metoder som kontrollerar och sorterar listor med heltal.
 
 **Här skriver du din kod:** [`SorteraLista/Sortering.cs`](SorteraLista/Sortering.cs)
 
+**Här provar du din kod:** [`SorteraLista.Provkor/Program.cs`](SorteraLista.Provkor/Program.cs)
+
+(högerklicka på `SorteraLista.Provkor` → **Set as Startup Project** → ▶)
+
+Tips: använd debuggern för att se hur bubbelsorteringen byter plats på talen
+varv för varv. Se [Testkör din kod själv](../guider/testkora.md#3-debuggern-stega-igenom-koden).
+
 ## Regel
 Du får **inte** använda inbyggd sortering, till exempel `lista.Sort()`,
 `OrderBy()`, `Order()` eller `Array.Sort()`. Du ska skriva sorteringen

@@ -7,6 +7,20 @@ och får direkt veta vilka tester som är godkända.
 |---|---|---|
 | 01 | Grunder – villkor, loopar och arrayer | [`01-grunder`](01-grunder) |
 | 02 | Sortera en lista | [`02-sortera-lista`](02-sortera-lista) |
+| 03 | Filstrukturen i C# | [`03-filstruktur`](03-filstruktur) |
+
+## Guider
+
+Läs och slå upp här när du behöver: **[guider/](guider/README.md)**
+
+| Guide | Handlar om |
+|---|---|
+| [Variabler och datatyper](guider/variabler-och-datatyper.md) | `int`, `double`, `string`, att räkna |
+| [Villkor, loopar och arrayer](guider/villkor-och-loopar.md) | `if`, `for`, `while`, arrayer |
+| [Metoder](guider/metoder.md) | Parametrar och returvärden |
+| [Testkör din kod själv](guider/testkora.md) | Provkör, debuggern, läsa testfel |
+| [Filstrukturen i C#](guider/filstruktur.md) | Solution, projekt, program eller bibliotek |
+| [Recept: skapa projekt](guider/skapa-projekt.md) | Bygga eget program och bibliotek |
 
 ---
 
@@ -46,8 +60,10 @@ git remote add upstream https://github.com/OskarRayFrayssinet/learn-csharp-with-
 
 1. Öppna övningens mapp och läs dess README.
 2. Skriv din kod i den fil som README:n anger. **Ändra inte i testfilerna.**
-   Kör testerna i Visual Studio med **Test → Run All Tests**.
-   (Tryck inte på ▶ Start – övningarna är inga program som kan startas.)
+   **Provkör** med egna värden: högerklicka på övningens `Provkor`-projekt,
+   välj **Set as Startup Project** och tryck ▶. Läs mer i
+   [Testkör din kod själv](guider/testkora.md).
+   Kör sedan testerna med **Test → Run All Tests**.
 3. Spara, committa och pusha:
    ```bash
    git add .

@@ -5,12 +5,21 @@ jobba dig nedåt. Varje uppgift är en egen metod.
 
 **Här skriver du din kod:** [`Grunder/Grunder.cs`](Grunder/Grunder.cs)
 
+**Här provar du din kod:** [`Grunder.Provkor/Program.cs`](Grunder.Provkor/Program.cs)
+
+**Läs först:** [Variabler och datatyper](../guider/variabler-och-datatyper.md),
+[Villkor, loopar och arrayer](../guider/villkor-och-loopar.md) och
+[Metoder](../guider/metoder.md).
+
 ## Så jobbar du
 1. Öppna `Grunder.cs` och leta upp metoden för uppgiften.
 2. Ta bort raden `throw new NotImplementedException();` och skriv din kod.
-3. Kör testerna i **Test Explorer** (**Test → Run All Tests**).
+3. **Provkör** med egna värden: högerklicka på `Grunder.Provkor` och välj
+   **Set as Startup Project**, tryck sedan ▶. Ändra gärna värdena i
+   `Program.cs`. Se [Testkör din kod själv](../guider/testkora.md).
+4. Kör testerna i **Test Explorer** (**Test → Run All Tests**).
    Testerna för just den uppgiften ska bli gröna.
-4. Committa och pusha. Gå sedan vidare till nästa uppgift.
+5. Committa och pusha. Gå sedan vidare till nästa uppgift.
 
 Det är helt okej att pusha efter varje uppgift. Då ser du hur antalet
 gröna tester växer under fliken **Actions**.
