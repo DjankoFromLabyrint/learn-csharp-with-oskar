@@ -88,7 +88,44 @@ dotnet test
 
 ---
 
-## Hämta nya övningar från läraren
+## Nya övningar från läraren
+
+Läraren lägger till nya övningar och rättelser i sitt repo. De kommer
+**inte** automatiskt till din fork, så du hämtar dem själv.
+
+### Kolla om det finns uppdateringar
+
+Inget av sätten nedan ändrar något i dina filer.
+
+**På GitHub (enklast):** öppna din fork. Ovanför fillistan står något av följande:
+
+| Det står | Betyder |
+|---|---|
+| *This branch is up to date with …* | Inga uppdateringar |
+| *This branch is **3 commits behind** …* | Det finns 3 nya ändringar från läraren |
+| *This branch is 2 commits ahead of …* | Bara dina egna ändringar, inget nytt från läraren |
+| *… ahead of, 3 commits behind …* | Både och. Det finns uppdateringar att hämta |
+
+Klicka på länken **"3 commits behind"** för att se vad läraren har ändrat.
+
+**I PowerShell:**
+```bash
+git fetch upstream
+git log --oneline HEAD..upstream/main
+```
+- `git fetch upstream` kollar vad som finns hos läraren, men ändrar ingenting i dina filer.
+- `git log …` listar ändringarna som du inte har hämtat än, till exempel:
+  ```
+  a1b2c3d Ny övning: 04-strängar
+  ```
+- **Skrivs ingenting ut** finns det inga uppdateringar.
+
+Vill du också se vilka filer som har ändrats:
+```bash
+git diff --stat HEAD...upstream/main
+```
+
+### Hämta uppdateringarna
 
 Committa alltid ditt eget arbete först, och hämta sedan:
 ```bash
